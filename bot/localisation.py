@@ -18,7 +18,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello,\n\n<b>This is a Telegram Video Compress Bot.</b>\n\n<b>Please Send Me Any Telegram Big File I Will Compress It To A Small File</b>\n\n<b>Use /help For More Details...</b>\n\n<b>Support Group :@ LeechZone</b>"
+    START_TEXT = "Hello,\n\n<b>This is a Telegram Video Compress Bot.</b>\n\n<b>Please Send Me Any Telegram Big File I Will Compress It To A Small File</b>\n\n<b>Use /help For More Details...</b>\n\n<b>Support Group : @LeechZone</b>"
    
     ABS_TEXT = "Please Don't Be Selfish."
     
@@ -59,7 +59,7 @@ class Localisation:
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "<b>Hi am Video Compressor Bot</b>\n\n<b>1. Sent your telegram big video file\n2. Reply the file - /compress And Percentage</b>\n<b>Eg:-</b> <code>/compress 50</code>\n\n<b>Support Group :@ LeechZone</b>"
+        "<b>Hi am Video Compressor Bot</b>\n\n<b>1. Sent your telegram big video file\n2. Reply the file - /compress And Percentage</b>\n<b>Eg:-</b> <code>/compress 50</code>\n\n<b>Support Group : @LeechZone</b>"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
