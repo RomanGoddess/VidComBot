@@ -18,34 +18,34 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello, \n\nThis is a Telegram Video Compress Bot \n\n<b>Please sent me any Telegram big file I Will compress a small file</b> \n\n/help for more details... \n\nSupport Group :@Dx_Support"
+    START_TEXT = "Hello,\n\n<b>This is a Telegram Video Compress Bot.</b>\n\n<b>Please Send Me Any Telegram Big File I Will Compress It To A Small File</b>\n\n<b>Use /help For More Details...</b>\n\n<b>Support Group :@LeechZone</b>"
    
-    ABS_TEXT = " Please don't be selfish."
+    ABS_TEXT = "Please Don't Be Selfish."
     
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     
     
-    DOWNLOAD_START = "📥 Downloading 📥 \n"
+    DOWNLOAD_START = "Downloading To My Server Now 📁\n"
     
-    UPLOAD_START = "📤 Uploading 📤 \n"
+    UPLOAD_START = "Uploading To Telegram Now 🌐\n"
     
-    COMPRESS_START = "📀 Trying to compress... 📀"
+    COMPRESS_START = "Compressing Video Now.. 📀"
     
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     
-    COMPRESS_SUCCESS = "📥 Downloaded in {}\n\n📀 Compressed in {}\n\n📤 Uploaded in {}"
+    COMPRESS_SUCCESS = "<b>📁 Downloaded In {}\n\n📀 Compressed In {}\n\n🌐 Uploaded In {}</b>"
 
     COMPRESS_PROGRESS = "⏳ ETA: {}\n🚀 Progress: {}%"
 
-    SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
+    SAVED_CUSTOM_THUMB_NAIL = "Custom Video/File Thumbnail Saved. This Image Will Be Used In The Video/File."
     
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     
-    SAVED_RECVD_DOC_FILE = "✅ Downloaded Successfully."
+    SAVED_RECVD_DOC_FILE = "Downloaded Successfully. 📩"
     
     CUSTOM_CAPTION_UL_FILE = " "
     
@@ -55,11 +55,11 @@ class Localisation:
     
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     
-    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "⚠️ Already One Process going on. \n or \n A media already exists. \n  Please send /cancel to delete existing media. ⚠️"
+    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "<b>One Process Ongoing Right Now ⚠️.</b>\n\nOr\n\n<b>The Media Already Exists.</b>\n\n<b>Please send /cancel to delete existing media.</b>"
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "Hi am Video Compressor Bot \n\n1. Sent your telegram big video file \n2. Reply the file - /compress And Persentage \nEg:- <code>/compress 50</code> \n\nSupport Group :@Dx_Support"
+        "<b>Hi am Video Compressor Bot</b>\n\n<b>1. Sent your telegram big video file\n2. Reply the file - /compress And Percentage</b>\n<b>Eg:-</b> <code>/compress 50</code>\n\n<b>Support Group :@LeechZone</b>"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
