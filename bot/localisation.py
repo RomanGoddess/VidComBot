@@ -18,7 +18,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello,\n\n<b>This is a Telegram Video Compress Bot.</b>\n\n<b>Please Send Me Any Telegram Big File I Will Compress It To A Small File</b>\n\n<b>Use /help For More Details...</b>\n\n<b>Support Group :@LeechZone</b>"
+    START_TEXT = "Hello,\n\n<b>This is a Telegram Video Compress Bot.</b>\n\n<b>Please Send Me Any Telegram Big File I Will Compress It To A Small File</b>\n\n<b>Use /help For More Details...</b>\n\n<b>Support Group :@ LeechZone</b>"
    
     ABS_TEXT = "Please Don't Be Selfish."
     
@@ -55,11 +55,11 @@ class Localisation:
     
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     
-    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "<b>One Process Ongoing Right Now ⚠️.</b>\n\nOr\n\n<b>The Media Already Exists.</b>\n\n<b>Please send /cancel to delete existing media.</b>"
+    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "<b>One Process Ongoing Right Now ⚠️.</b>\n\n<b>Or The Media Already Exists.</b>\n\n<b>Please send /cancel to delete existing media.</b>"
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "<b>Hi am Video Compressor Bot</b>\n\n<b>1. Sent your telegram big video file\n2. Reply the file - /compress And Percentage</b>\n<b>Eg:-</b> <code>/compress 50</code>\n\n<b>Support Group :@LeechZone</b>"
+        "<b>Hi am Video Compressor Bot</b>\n\n<b>1. Sent your telegram big video file\n2. Reply the file - /compress And Percentage</b>\n<b>Eg:-</b> <code>/compress 50</code>\n\n<b>Support Group :@ LeechZone</b>"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
