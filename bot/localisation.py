@@ -18,26 +18,25 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello,\n\n<b>This is a Telegram Video Compress Bot.</b>\n\n<b>Please Send Me Any Telegram Big File I Will Compress It To A Small File</b>\n\n<b>Use /help For More Details...</b>\n\n<b>Support Group : @LeechZone</b>"
-   
+    START_TEXT = "<b>Hello, My Name Is 𝗖𝗢𝗠𝗣𝗥𝗘𝗦𝗦 𝗩𝗜𝗗𝗘𝗢 𝗕𝗢𝗧.\n\nI'm A <u>𝗩𝗜𝗗𝗘𝗢 𝗖𝗢𝗠𝗢𝗥𝗘𝗦𝗦𝗢𝗥 𝗕𝗢𝗧</u>\n\nSend Me Any 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗩𝗶𝗱𝗲𝗼 Be It 𝗗𝗼𝗰𝘂𝗺𝗲𝗻𝘁/𝗦𝘁𝗿𝗲𝗮𝗺𝗮𝗯𝗹𝗲 & I'll 𝗖𝗼𝗺𝗽𝗿𝗲𝘀𝘀 It & Resend You A Smaller Packed Size, See /Help For More Information\n\n❌ You Can Only Perform 𝗢𝗡𝗘 Compress At A Time\n\n𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗧𝗼 @FlixBots 𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗘𝘅𝗰𝗶𝘁𝗶𝗻𝗴 𝗕𝗼𝘁𝘀</b>"
     ABS_TEXT = "Please Don't Be Selfish."
     
-    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
+    FORMAT_SELECTION = "Select The Desired Format: <a href='{}'>file size might be approximate</a> \nIf You Want To Set Custom Thumbnail, Send A Photo Before Or Quickly After Tapping On Any Of The Below Buttons.\nYou Can Use /deletethumbnail To Delete The Auto-Generated Thumbnail."
     
     
-    DOWNLOAD_START = "<b>Downloading To My Server Now 📁</b>\n"
+    DOWNLOAD_START = "<b>𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝗩𝗶𝗱𝗲𝗼 𝗧𝗼 𝗠𝘆 𝗦𝗲𝗿𝘃𝗲𝗿 𝗡𝗼𝘄 📁</b>\n"
     
-    UPLOAD_START = "<b>Uploading To Telegram Now 🌐</b>\n"
+    UPLOAD_START = "<b>𝗨𝗽𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝗧𝗵𝗲 𝗩𝗶𝗱𝗲𝗼 𝗧𝗼 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗡𝗼𝘄 🌐</b>\n"
     
-    COMPRESS_START = "<b>Compressing Video Now.. 📀</b>"
+    COMPRESS_START = "<b>𝗖𝗼𝗺𝗽𝗿𝗲𝘀𝘀𝗶𝗻𝗴 𝗧𝗵𝗲 𝗩𝗶𝗱𝗲𝗼 𝗡𝗼𝗲.. 📀</b>"
     
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 𝟮𝗚𝗕 due to Telegram API limitations."
     
-    COMPRESS_SUCCESS = "<b>📁 Downloaded In {}</b>\n\n<b>📀 Compressed In {}</b>\n\n<b>🌐 Uploaded In {}</b>"
+    COMPRESS_SUCCESS = "<b>📁 Downloaded In {}</b>\n\n<b>📀 Compressed In {}</b>\n\n<b>🌐 Uploadedn In {}</b>\n\n𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗧𝗼 @FlixBots 𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗘𝘅𝗰𝗶𝘁𝗶𝗻𝗴 𝗕𝗼𝘁𝘀"
 
-    COMPRESS_PROGRESS = "<b>ETA:</b> {}\n<b>Progress:</b> {}%"
+    COMPRESS_PROGRESS = "<b>𝗘𝗧𝗔 :</b> {}\n<b>𝗣𝗿𝗼𝗴𝗿𝗲𝘀𝘀 :</b> {}%"
 
     SAVED_CUSTOM_THUMB_NAIL = "Custom Video/File Thumbnail Saved. This Image Will Be Used In The Video/File."
     
