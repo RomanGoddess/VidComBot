@@ -18,7 +18,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "<b>Hello, My Name Is 𝗖𝗢𝗠𝗣𝗥𝗘𝗦𝗦 𝗩𝗜𝗗𝗘𝗢 𝗕𝗢𝗧.\n\nI'm A <u>𝗩𝗜𝗗𝗘𝗢 𝗖𝗢𝗠𝗢𝗥𝗘𝗦𝗦𝗢𝗥 𝗕𝗢𝗧</u>\n\nSend Me Any 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗩𝗶𝗱𝗲𝗼 Be It 𝗗𝗼𝗰𝘂𝗺𝗲𝗻𝘁/𝗦𝘁𝗿𝗲𝗮𝗺𝗮𝗯𝗹𝗲 & I'll 𝗖𝗼𝗺𝗽𝗿𝗲𝘀𝘀 It & Resend You A Smaller Packed Size, See /Help For More Information\n\n❌ You Can Only Perform 𝗢𝗡𝗘 Compress At A Time\n\n𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗧𝗼 @FlixBots 𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗘𝘅𝗰𝗶𝘁𝗶𝗻𝗴 𝗕𝗼𝘁𝘀</b>"
+    START_TEXT = "<b>Hello, My Name Is 𝗖𝗢𝗠𝗣𝗥𝗘𝗦𝗦 𝗩𝗜𝗗𝗘𝗢 𝗕𝗢𝗧 🥳.\n\nI'm A <u>𝗩𝗜𝗗𝗘𝗢 𝗖𝗢𝗠𝗢𝗥𝗘𝗦𝗦𝗢𝗥 𝗕𝗢𝗧</u>\n\nSend Me Any 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗩𝗶𝗱𝗲𝗼 Be It 𝗗𝗼𝗰𝘂𝗺𝗲𝗻𝘁/𝗦𝘁𝗿𝗲𝗮𝗺𝗮𝗯𝗹𝗲 & I'll 𝗖𝗼𝗺𝗽𝗿𝗲𝘀𝘀 It & Resend You A Smaller Packed Size, See /Help For More Information\n\n❌ You Can Only Perform 𝗢𝗡𝗘 Compress At A Time\n\n𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗧𝗼 @FlixBots 𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗘𝘅𝗰𝗶𝘁𝗶𝗻𝗴 𝗕𝗼𝘁𝘀</b>"
     ABS_TEXT = "Please Don't Be Selfish."
     
     FORMAT_SELECTION = "Select The Desired Format: <a href='{}'>file size might be approximate</a> \nIf You Want To Set Custom Thumbnail, Send A Photo Before Or Quickly After Tapping On Any Of The Below Buttons.\nYou Can Use /deletethumbnail To Delete The Auto-Generated Thumbnail."
@@ -58,7 +58,11 @@ class Localisation:
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "<b>Hi am Video Compressor Bot</b>\n\n<b>1. Sent your telegram big video file\n2. Reply the file - /compress And Percentage</b>\n<b>Eg:-</b> <code>/compress 50</code>\n\n<b>Support Group : @LeechZone</b>"
+        "<b><u>More Help & Commands!</u>\n\n<u>Convert To Video</u>
+➠ Send Me Any Telegram File Or Video.
+➠ Reply To That Message With /compress (percentage) Command. Example /compress 50\n\n<u>Set Thumbnail</u>
+➠ Send A Photo To Make It As Permanent Thumbnail.\n\n<u>Deleting Thumbnail</u>
+➠ Send /deletethumbnail To Delete Thumbnail.\n\n𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗧𝗼 @FlixBots 𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗘𝘅𝗰𝗶𝘁𝗶𝗻𝗴 𝗕𝗼𝘁𝘀</b>"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
