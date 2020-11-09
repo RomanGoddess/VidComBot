@@ -28,7 +28,7 @@ class Localisation:
     
     UPLOAD_START = "<b>𝗨𝗽𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝗧𝗵𝗲 𝗩𝗶𝗱𝗲𝗼 𝗧𝗼 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗡𝗼𝘄 🌐</b>\n"
     
-    COMPRESS_START = "<b>𝗖𝗼𝗺𝗽𝗿𝗲𝘀𝘀𝗶𝗻𝗴 𝗧𝗵𝗲 𝗩𝗶𝗱𝗲𝗼 𝗡𝗼𝗲.. 📀</b>"
+    COMPRESS_START = "<b>𝗖𝗼𝗺𝗽𝗿𝗲𝘀𝘀𝗶𝗻𝗴 𝗧𝗵𝗲 𝗩𝗶𝗱𝗲𝗼 𝗡𝗼𝘄.. 📀</b>"
     
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     
