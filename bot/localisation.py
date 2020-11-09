@@ -58,11 +58,7 @@ class Localisation:
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "<b><u>More Help & Commands!</u>\n\n<u>Convert To Video</u>
-➠ Send Me Any Telegram File Or Video.
-➠ Reply To That Message With /compress (percentage) Command. Example /compress 50\n\n<u>Set Thumbnail</u>
-➠ Send A Photo To Make It As Permanent Thumbnail.\n\n<u>Deleting Thumbnail</u>
-➠ Send /deletethumbnail To Delete Thumbnail.\n\n𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗧𝗼 @FlixBots 𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗘𝘅𝗰𝗶𝘁𝗶𝗻𝗴 𝗕𝗼𝘁𝘀</b>"
+        "<b><u>More Help & Commands!</u>\n\n<u>Convert To Video</u>\n➠ Send Me Any Telegram File Or Video.\n➠ Reply To That Message With /compress (percentage) Command. Example /compress 50\n\n<u>Set Thumbnail</u>\n➠ Send A Photo To Make It As Permanent Thumbnail.\n\n<u>Deleting Thumbnail</u>\n➠ Send /deletethumbnail To Delete Thumbnail.\n\n𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗧𝗼 @FlixBots 𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗘𝘅𝗰𝗶𝘁𝗶𝗻𝗴 𝗕𝗼𝘁𝘀</b>"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
