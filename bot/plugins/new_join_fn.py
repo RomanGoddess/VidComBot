@@ -24,14 +24,14 @@ async def new_join_f(client, message):
 
 async def start_message(bot, message):
     await message.reply(
-        text=f"**Hi, Sir!** \n\nThis is **Bestz Video Compressor**.",
+        text=f"**Hi, Sir!** \n\nThis is **Compress Flix Bot**.",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Bots Updates Channel', url='https://t.me/naijabestz')
+                    InlineKeyboardButton('Bots Updates Channel', url='https://t.me/FlixBots')
                 ],
                 [
-                    InlineKeyboardButton('Support Group', url='https://t.me/naija_bestz')
+                    InlineKeyboardButton('Support Group', url='https://t.me/LeechZone')
                 ]
             ]
         )
