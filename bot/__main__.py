@@ -14,7 +14,8 @@ from bot import (
     TG_BOT_TOKEN
 )
 from bot.plugins.new_join_fn import (	
-    help_message_f	
+    help_message_f,
+    start_message
 )
 
 from pyrogram import (
