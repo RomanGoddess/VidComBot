@@ -3,3 +3,4 @@ Pillow
 psutil
 git+git://github.com/mahesh0253/pyrogram@asyncio#pyrogram
 tgcrypto
+pyrogram
