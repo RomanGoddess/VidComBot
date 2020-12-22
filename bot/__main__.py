@@ -14,13 +14,12 @@ from bot import (
     TG_BOT_TOKEN
 )
 from bot.plugins.new_join_fn import (	
-    help_message_f,
-    start_message
+    help_message_f	
 )
 
-from pyrogram import ( 
-  Client,
-  Filters,
+from pyrogram import (
+  Client, 
+  Filters, 
   MessageHandler,
   CallbackQueryHandler
 )
@@ -61,14 +60,14 @@ if __name__ == "__main__" :
     # START command
     incoming_start_message_handler = MessageHandler(
         incoming_start_message_f,
-        filters=Filters.command([Command.START]) #& Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.START]) & Filters.chat(chats=AUTH_USERS)
     )
     app.add_handler(incoming_start_message_handler)
     
     # COMPRESS command
     incoming_compress_message_handler = MessageHandler(
         incoming_compress_message_f,
-        filters=Filters.command([Command.COMPRESS]) #& Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.COMPRESS]) & Filters.chat(chats=AUTH_USERS)
     )
     app.add_handler(incoming_compress_message_handler)
     
@@ -89,14 +88,7 @@ if __name__ == "__main__" :
     # HELP command
     help_text_handler = MessageHandler(
         help_message_f,
-        filters=Filters.command([Command.HELP]) #& Filters.chat(chats=AUTH_USERS)
-    )
-    app.add_handler(help_text_handler)
-
-    # Start command
-    start_text_handler = MessageHandler(
-        start_message,
-        filters=Filters.command(["start"])
+        filters=Filters.command([Command.HELP]) & Filters.chat(chats=AUTH_USERS)
     )
     app.add_handler(help_text_handler)
     
