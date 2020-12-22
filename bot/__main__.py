@@ -18,9 +18,7 @@ from bot.plugins.new_join_fn import (
     start_message
 )
 
-from pyrogram import (
-  Client, 
-  Filters, 
+from pyrogram import ( 
   MessageHandler,
   CallbackQueryHandler
 )
