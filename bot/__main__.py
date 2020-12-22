@@ -81,21 +81,21 @@ if __name__ == "__main__" :
     # MEMEs COMMANDs
     exec_message_handler = MessageHandler(
         exec_message_f,
-        filters=Filters.command([Command.EXEC]) & Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.EXEC]) # & Filters.chat(chats=AUTH_USERS)
     )
     app.add_handler(exec_message_handler)
     
     # HELP command
     help_text_handler = MessageHandler(
         help_message_f,
-        filters=Filters.command([Command.HELP]) & Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.HELP]) # & Filters.chat(chats=AUTH_USERS)
     )
     app.add_handler(help_text_handler)
     
     # Telegram command to upload LOG files
     upload_log_f_handler = MessageHandler(
         upload_log_file,
-        filters=Filters.command([Command.UPLOAD_LOG_FILE]) & Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.UPLOAD_LOG_FILE]) # & Filters.chat(chats=AUTH_USERS)
     )
     app.add_handler(upload_log_f_handler)
     
